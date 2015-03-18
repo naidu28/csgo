@@ -1,0 +1,133 @@
+html {
+	height: 100%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar {
+	/* Positioning */
+	position: fixed;
+
+	/* Display & Box Model */
+	display: inline-block;
+	width: 20vw;
+	height: 100%;
+	margin: 0px 0px 0px 0px;
+	/*padding: 5px 5px 5px 5px;*/
+	outline: #2E110D solid 2px;
+
+	/* Color and Image*/
+	background: #8A3824;
+	box-shadow: 0px 0px 50px #2A0C0B inset;
+	/* Text */
+	font-family: "arial black";
+	font-size: 2vh;
+	color: white;
+	/* Other */
+}
+
+#icon {
+	/* Positioning */
+	position: absolute;
+	top: 7vh;
+	left: 3vw;
+	/* Display & Box Model */
+	display: block;
+	height: 14vw;
+	width: 14vw;
+	border-radius: 5%;
+	border: 5px solid #431716;
+	/* Color and Image*/
+	background-image: url("default_user_img.jpg");
+	background-size: cover;
+	/* Text */
+	/* Other */
+	transition: all .2s ease;
+}
+
+#icon:hover {
+	height: 15vw;
+	width: 15vw;
+
+	top: 6vh;
+	left: 2.5vw;
+}
+
+#link_list {
+	/* Positioning */
+	position: absolute;
+	top: 21vw;
+	left: 2vw;
+	/* Display & Box Model */
+	display: block;
+	height: 15vh;
+	width: 14vw;
+	/* Color and Image*/
+	/* Text */
+	/* Other */
+}
+
+.link {
+	/* Positioning */
+	margin-top: 1vw;
+	/* Display & Box Model */
+	display: block;
+	border-radius: 1vh;
+	width: 16vw;
+	height: 8vh;
+	/* Background*/
+	background-color: black;
+	/* Text */
+	font-family: "arial black";
+	font-size: 4vh;
+	color: white;
+	/* Other */
+	list-style-type: none;
+	text-align: center;
+}
+
+#pageForm {
+	background-color: black;
+	/* background-color: #431716; */
+	float: right;
+	height: 100%;
+	width: 80vw;
+	text-align: center;
+	font-family: "arial black";
+	font-size: 7vh;
+	color: white;
+}
+
+#bigRed {
+	background-color: #440000;
+	height: 60vh;
+	width: 70vw;
+	margin-top: 10vh;
+	margin-left: 6vw;
+	border-radius: 1vh;
+}
+
+#search_query {
+	position: relative;
+	top: 50vh;
+}
+
+#search_submit {
+	position: relative;
+	top: 50.5vh;
+	left: -4px;
+	background-image: url('search-icon.png');
+	width: 19px;
+	height: 19px;
+	background-size: contain;
+}
+
+/* Template {
+	/* Positioning */
+	/* Display & Box Model */
+	/* Background*/
+	/* Text */
+	/* Other
+} */
